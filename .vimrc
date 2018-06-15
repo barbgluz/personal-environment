@@ -17,8 +17,7 @@ set autoindent
 
 colorscheme elflord
 
-"Como o ctrlp vai se comportar mozao disse q era melhor assim nois confia
-"in mozao we trust
+"CtrlP
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -cox *.swp -x node_modules']
 
 set updatetime=250
