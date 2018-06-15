@@ -17,7 +17,7 @@ set autoindent
 
 colorscheme elflord
 
-"Ctrl-P
+"CtrlP
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -cox *.swp -x node_modules']
 
 set updatetime=250
