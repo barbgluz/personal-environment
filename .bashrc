@@ -2,8 +2,6 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-alias percata="cd /var/www/html/precatorio"
-alias ufba="cd ~/Documentos/ufba/2018.1"
 alias workspace="cd /var/www/html/"
 alias copy="xclip -selection clipboard"
 # If not running interactively, don't do anything
@@ -79,10 +77,6 @@ xterm*|rxvt*)
 *)
     ;;
 esac
-
-# Donec at sapien feugiat, tempus
-
-alias hesoyam="ssh -i ~/Documentos/infoJr/temp/.infokeypair.pem ubuntu@34.214.163.7"
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
